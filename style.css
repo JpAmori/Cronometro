@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(30deg, #bdbdbd 0%,#8315dd 100%);
+    padding: 90px 0;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.Cronometro{
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgb(102, 13, 175);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px black;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font: normal 1.8rem serif;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+div{
+    text-align: center;
+} 
+
+
+button{
+    height: 5em;
+    width: 8.5em;
+    padding: px;
+    border-radius: 5px;
+    color: white;
+    font: bold 1rem serif;
+    text-transform: uppercase;
+}
+
+.start-btn{
+    background-color: green;
+}
+
+.pause-btn{
+    background-color: rgb(167, 158, 158);
+}
+
+.reset-btn{
+    background-color: red;
+}
